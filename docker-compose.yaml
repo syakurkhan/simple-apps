@@ -1,7 +1,7 @@
 services:
   apps:
     container_name: ct-simpleapps-syakur
-    image: simpleapps-syakur
+    image: deni02/simpleapps-syakur
     build: ./apps
     ports:
       - "10014:3000"
