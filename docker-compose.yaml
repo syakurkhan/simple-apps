@@ -1,7 +1,10 @@
 services:
   apps:
+    container_name: ct-simpleapps-syakur
+    image: simpleapps-syakur
     build: ./apps
     ports:
-      - "10000:3000"
+      - "10014:3000"
     restart: always
     env_file: ./apps/.env
+    #bejabjdbjad
